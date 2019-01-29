@@ -66,3 +66,4 @@ pluto = planet(10,194,178,128,510,-60,6.5)
 for star in range(80):
   stars(random.randint(-250,600),random.randint(50,400))
   stars(random.randint(-250,600),random.randint(-400,-150))
+ 
