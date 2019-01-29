@@ -41,7 +41,7 @@ screen.bgcolor('black')
 #setting the attributes and positions for the sun and each planet
 sun = planet(10,255,109,0,-400,-200,200)
 mercury = planet(10,150,150,150,-150,-40,10)
-venus = planet(10,265,160,122,-100,-50,20)
+venus = planet(10,255,160,122,-100,-50,20)
 earth = planet(10,0,0,255,-35,-55,25)
 #creating earth land
 g=turtle.Turtle()
@@ -55,11 +55,11 @@ g.circle(25,140,10)
 g.end_fill()
 
 mars = planet(10,255,0,0,20,-45,10)
-jupiter = planet(10,265,160,122,120,-120,80)
+jupiter = planet(10,255,160,122,120,-120,80)
 saturn = planet(10,210,180,140,275,-100,50)
-sat_ring = ring(10,'c2b280',210,-50,0,130)
+sat_ring = ring(10,'#c2b280',210,-50,0,130)
 uranus = planet(10,13,152,186,380,-90,35)
-u_ring = ring(10,'d3d3d3',380,-10,90,90)
+u_ring = ring(10,'#d3d3d3',380,-10,90,90)
 neptune = planet(10,30,144,255,460,-80,25)
 pluto = planet(10,194,178,128,510,-60,6.5)
 #creating and positioning stars without them overlapping planets and the sun
