@@ -37,6 +37,7 @@ def stars(xcor,ycor):
   s.end_fill()
 #filling the background black
 screen = turtle.Screen()
+screen.colormode(255)
 screen.bgcolor('black')
 #setting the attributes and positions for the sun and each planet
 sun = planet(10,255,109,0,-400,-200,200)
